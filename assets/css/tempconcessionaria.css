@@ -1,0 +1,351 @@
+* {
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  height: 110px;
+  font-size: larger;
+  justify-content: space-between;
+}
+
+.contato_menu {
+  display: flex;
+}
+.contato_menu ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  list-style-type: none;
+}
+.contato_menu,
+ul,
+a {
+  display: flex;
+}
+.contato_menu,
+ul,
+a {
+  margin-top: 15px;
+}
+
+.list1 {
+  background-color: #e60024;
+  width: 165px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.list2 {
+  background-color: #e60024;
+  width: 165px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.list1 li {
+}
+.logo {
+  width: 253px;
+  height: 100px;
+  margin-left: 30px;
+}
+#section2 {
+  display: flex;
+  background-color: #ffffff;
+  height: 440px;
+}
+.img_principal img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  width: 541px;
+  height: 430px;
+  margin-left: 50px;
+}
+.description > h2 {
+  font-size: 38px;
+  margin-top: 30px;
+  color: #e60024;
+}
+.description p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+  color: #5c5c5c;
+  opacity: 0.7;
+}
+.img_civic_blue,
+img {
+  width: 728px;
+  height: 430px;
+}
+button {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #e60024;
+  border: #e60024;
+  border-radius: 3px;
+  padding: 14px;
+  margin-top: 20px;
+  width: 170px;
+}
+button:hover {
+  background-color: #e6213f;
+}
+#section3 {
+  width: 100%;
+  height: 100%;
+}
+
+#section3 img {
+  width: 391px;
+  height: 267px;
+  margin-top: 80px;
+}
+.background_section3 {
+  background-image: url(../images/honda-civic-touring-2020-16.png);
+  width: 100%;
+  height: 650px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+.acessorios_desc {
+  width: 421px;
+  height: 391px;
+}
+.acessorios_desc h3 {
+  font-size: 19px;
+  color: #e60024;
+  margin: 16px;
+}
+.acessorios_desc p {
+  font-size: 16px;
+  color: #ffffff;
+}
+.button2 {
+  background-color: #e60024;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 14px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.button2:hover {
+  background-color: #e6213f;
+}
+.button_mais_modelos {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+}
+.button_mais_modelos a {
+  background-color: #000000;
+  font-size: 16px;
+  padding: 16px;
+  padding-left: 24px;
+  margin: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  width: 190px;
+  height: 50px;
+  border-radius: 3px;
+}
+hr {
+  border: 2px solid #5c5c5c;
+}
+.button_mais_modelos a:hover {
+  background-color: #1a1818;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.container_footer {
+  display: flex;
+  height: 100%;
+
+  flex: 1;
+}
+.container_footer div {
+  flex: 1;
+  justify-self: center;
+}
+.logo_footer1 {
+  width: 180px;
+  height: 65px;
+  margin-bottom: -10px;
+}
+.desc_footer_logo {
+  margin-bottom: 22px;
+  color: #5c5c5c;
+}
+
+.desc_footer_logo,
+.desc_footer_ibama {
+  font-size: small;
+}
+.div_logo_footer {
+  margin-left: 80px;
+}
+.div_logo_footer2,
+.desc_footer_ibama {
+  display: flex;
+}
+.desc_footer_ibama {
+  align-items: center;
+  color: #5c5c5c;
+}
+.logo_footer2 {
+  width: 45px;
+  margin-top: 20px;
+  height: 45px;
+  margin-left: 40px;
+}
+.logo_footer3 {
+  margin-top: 30px;
+  width: 125px;
+  height: 25px;
+  margin-left: 60px;
+}
+.button2_end {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  body,
+  main {
+  }
+  .img_principal {
+    max-width: 1200px;
+  }
+  .img_civic_blue,
+  img {
+    width: 100%;
+  }
+  .button2 {
+    margin-left: 112px;
+  }
+  /*section,
+  #section2,
+  #section3 {
+    width: auto;
+  }*/
+}
+
+@media (max-width: 1024px) {
+  body {
+  }
+  #section2 {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  #section3 .background_section3 {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .button_mais_modelos {
+    background-color: #ffffff;
+  }
+  .acessorios_desc {
+    max-width: 100%;
+    height: 100%;
+    margin-left: 20px;
+  }
+  .description {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .button2 {
+    display: none;
+  }
+  .button2_end {
+    display: flex;
+    padding-left: 20px;
+    margin-left: 115px;
+    margin-bottom: 10px;
+  }
+  .img_civic_blue {
+    max-width: 90%;
+    max-height: 90%;
+    height: auto;
+    margin-left: 50px;
+  }
+  .description {
+    text-align: center;
+  }
+  .img_flex {
+  }
+}
+@media (max-width: 425px) {
+  .img_principal {
+    width: 100%;
+  }
+  body {
+    width: 155%;
+  }
+  footer .container_footer {
+    flex-direction: column;
+    /*margin-left: 120px;*/
+  }
+  .div_logo_footer {
+    margin-left: 160px;
+  }
+  .div_logo_footer2 {
+    margin-left: 20px;
+  }
+  .div_logo_footer3 {
+    margin-left: 120px;
+  }
+  .logo_footer1 {
+    width: 280px;
+    height: 85px;
+  }
+  .desc_footer_logo {
+    font-size: 22px;
+    margin-left: -70px;
+  }
+  .logo_footer2 {
+    width: 65px;
+    height: 65px;
+  }
+  .desc_footer_ibama {
+    font-size: 19px;
+  }
+  .logo_footer3 {
+    width: 175px;
+    height: 55px;
+  }
+  .img_civic_blue {
+    max-width: 95%;
+    max-height: 95%;
+    margin-left: 10px;
+  }
+}
